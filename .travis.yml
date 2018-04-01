@@ -3,4 +3,4 @@ os:
   - osx
 language: java
 script:
-  - build.sh
+  - bash build.sh
