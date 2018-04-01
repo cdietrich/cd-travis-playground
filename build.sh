@@ -7,6 +7,7 @@ else
 	echo "linux"
 	sed_inplace="sed -i"
 fi
+echo "$sed_inplace"
 $sed_inplace s/a/b/g lala.txt
 cat lala.txt
 git stash
