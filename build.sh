@@ -9,5 +9,6 @@ else
 fi
 echo "$sed_inplace"
 $sed_inplace s/a/b/g lala.txt
+ls -la
 cat lala.txt
 git stash
